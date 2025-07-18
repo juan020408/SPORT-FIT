@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORT FIT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #000000;
+        }
+
+        header {
+            background: #99FF33;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #FFFF00;
+            text-decoration: none;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center; /* Centra el contenido de las celdas */
+        }
+
+        th {
+            background-color: #FF4500;
+            color: white;
+        }
+
+        .descripcion {
+            text-align: center; /* Centra la descripción */
+            color: #333; /* Color del texto de la descripción */
+            font-size: 0.9em; /* Tamaño del texto de la descripción */
+        }
+
+        .precio {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #FF4500; /* Color para el precio */
+        }
+
+        .boton {
+            background-color: #FF4500; /* Color del botón */
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 5px; /* Bordes redondeados */
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="D:\Documentos\angel y juam\S1.png" alt="Balón de fútbol" width="300" height="200"/>
+    <h1>SPORT FIT</h1>
+</header>
+
+<nav>
+ 
+    <a href="#imagenes">Articulos</a>
+    <a href="#audio">Audio</a>
+    <a href="#video">Video</a>
+    <a href="#tabla">Registro de Usuario</a>
+    <a href="#compras">Compras</a>
+    <a href="#listas">Listas</a>
+    <a href="#formulario">Formulario</a>
+</nav>
+
+<div class="content">
+
+<section id="texto">
+    <h2>TU TIENDA DE DEPORTES EN LÍNEA CON LA MÁS ALTA CALIDAD DEL MERCADO</h2>
+</section>
+
+<section id="imagenes">
+    <h2>PRODUCTOS</h2>
+    <table>
+        <tr>
+            <td>
+                <img src="D:\Documentos\angel y juam\futbol.jpg" alt="Balón de fútbol" width="300" height="200" />
+                <p class="descripcion"><b>Balón de fútbol "adidas"</b></p>
+                <p class="precio">Precio: $30</p>
+                <button class="boton">Agregar al carrito</button>
+            </td>
+            <td>
+                <img src="D:\Documentos\angel y juam\images.jpg" alt="Raqueta" width="300" height="200" />
+                <p class="descripcion"><b>Kit de juego para tenis</b></p>
+                <p class="precio">Precio: $50</p>
+                <button class="boton">Agregar al carrito</button>
+            </td>
+            <td>
+                <img src="D:\Documentos\angel y juam\b1.png" alt="Balón de basquetball" width="300" height="200" />
+                <p class="descripcion"><b>Balón de basquetball</b></p>
+                <p class="precio">Precio: $25</p>
+                <button class="boton">Agregar al carrito</button>
+            </td>
+            <td>
+                <img src="D:\Documentos\angel y juam\b3.jpg" alt="Guantes de box" width="300" height="200" />
+                <p class="descripcion"><b>Guantes de box "adidas"</b></p>
+                <p class="precio">Precio: $40</p>
+                <button class="boton">Agregar al carrito</button>
+            </td>
+            <td>
+                <img src="D:\Documentos\angel y juam\b5.jpg" alt="Kit para beisbol" width="300" height="200" />
+                <p class="descripcion"><b>Kit para beisbol</b></p>
+                <p class="precio">Precio: $45</p>
+                <button class="boton">Agregar al carrito</button>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<section id="audio">
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="D:\Documentos\angel y juam\A1.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+</section>
+
+<section id="video">
+    <h2>Video</h2>
+    <video width="320" height="240" controls>
+        <source src="D:\Documentos\angel y juam\X1.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+</section>
+
+<section id="tabla">
+    <h2>Tabla</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+        </tr>
+        <tr>
+            <td>Alicia</td>
+            <td>25</td>
+            <td>Madrid</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>30</td>
+            <td>Barcelona</td>
+        </tr>
+    </table>
+</section>
+
+<section id="compras">
+    <h2>Registros de Compras</h2>
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Nombre del Comprador</th>
+            <th>Cantidad</th>
+            <th>Precio Total</th>
+        </tr>
+        <tr>
+            <td>Balón de fútbol "adidas"</td>
+            <td>Alicia</td>
+            <td>1</td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td>Kit de juego para tenis</td>
+            <td>Juan</td>
+            <td>1</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Balón de basquetball</td>
+            <td>Pedro</td>
+            <td>2</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Guantes de box "adidas"</td>
+            <td>Alicia</td>
+            <td>1</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td>Kit para beisbol</td>
+            <td>Juan</td>
+            <td>1</td>
+            <td>$45</td>
+        </tr>
+    </table>
+</section>
+
+<section id="listas">
+    <h2>Listas</h2>
+    <h3>Lista de Equipos de Deporte</h3>
+    <ul>
+        <li>Balón de Fútbol</li>
+        <li>Raqueta de Tenis</li>
+        <li>Balón de Baloncesto</li>
+        <li>Guantes de Box</li>
+        <li>Kit de Beisbol</li>
+    </ul>
+    <h3>Lista de Actividades Deportivas</h3>
+    <ol>
+        <li>Fútbol</li>
+        <li>Tenis</li>
+        <li>Baloncesto</li>
+        <li>Boxeo</li>
+        <li>Beisbol</li>
+    </ol>
+</section>
+
+<section id="formulario">
+    <h2>Formulario</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <br>
+        <label for="producto">Producto de Interés:</label>
+        <select id="producto" name="producto">
+            <option value="futbol">Balón de fútbol</option>
+            <option value="tenis">Kit de juego para tenis</option>
+            <option value="basquetball">Balón de basquetball</option>
+            <option value="box">Guantes de box</option>
+            <option value="beisbol">Kit para beisbol</option>
+        </select>
+        <br>
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <script>
+            alert("GRACIAS POR RESPONDER");
+        </script>
+    </form>
+</section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Proyecto HTML</p>
+</footer>
+
+</body>
+
+</html>
